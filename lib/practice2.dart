@@ -16,8 +16,11 @@ class _Practice2State extends State<Practice2> {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          TextField(
-            controller: practice2controller,
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: TextField(
+              controller: practice2controller,
+            ),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
